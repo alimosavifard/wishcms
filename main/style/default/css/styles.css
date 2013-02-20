@@ -1,0 +1,278 @@
+/* Makeshift CSS Reset */
+{
+	margin: 0;
+	padding: 0;
+}
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, aside, nav, article {
+	display: block;
+}
+body {
+	margin: 0 auto;
+	width:800px;
+}
+h2 {
+	line-height: 44px;
+	padding: 22px 0;
+	font-size:140%;
+}
+h3 {
+	line-height: 22px;
+	padding: 11px 0;
+	font-size:130%;
+}
+p {
+	padding-bottom: 22px;
+}
+
+
+table {  
+    border-collapse: collapse;  
+    width: 100%;  
+}  
+table a {  
+    color: #000;  
+}  
+table a:hover {  
+    color:#373737;  
+    text-decoration: none;  
+}  
+th {  
+    background-color: #B40E1F;  
+    color: #F0F0F0;  
+}  
+td {  
+    padding: 5px;  
+}  
+/* Begin font styles */  
+h1, #footer {  
+    font-family: Arial;  
+    color: #F1F3F1;  
+}  
+h3 {margin: 0; padding: 0;}  
+
+
+p {   
+    font-family: Arial;  
+    padding: 3px;  
+    text-decoration: none;  
+}  
+
+main {
+	float:left;
+	width:60%;
+}
+sidebar {
+	float:right;
+	width:35%;
+}
+
+/* This value is the height of your footer */
+footer {
+      Position: absolute;
+      Width: 100%;
+      Bottom: 0;
+      Height: 75px;  
+}
+
+footer .copyright {
+/* 	color:#53473f; */
+	font-size:13px;
+}
+
+
+
+
+/*
+	Tabs CSS code starts here
+*/
+tabs {
+	margin: 30px;
+}
+
+tab {
+	display: none;
+}
+
+/* Original tabs */
+tabs {
+	border-bottom: 1px solid #cccccc;
+}
+tabs ul {
+	list-style: none;
+	padding: 5px 0 4px 0;
+	margin: 0 0 0 10px;
+	font-size: 1.05em;
+	font-family: Arial, Verdana, sans-serif;
+}
+tabs ul li {
+	display: inline;
+}
+tabs ul li a {
+	border: 1px solid #ccc;
+	padding: 4px 6px;
+	text-decoration: none;
+	background-color: #eeeeee;
+	border-bottom: none;
+	outline: none;
+	border-radius: 5px 5px 0 0;
+}
+tabs ul li a:hover {
+	background-color: #dddddd;
+}
+tabs ul li.active a {
+	border-bottom: 1px solid #fff;
+	background-color: #fff;
+	padding: 4px 6px 5px;
+	border-bottom: none;
+}
+tabs ul li.active a:hover {
+	background-color: #eeeeee;
+}
+
+tabs ul li a.icon_accept {
+	background-image: url(accept.png);
+	background-position: 5px 3px;
+	background-repeat: no-repeat;
+	padding-left: 24px;
+}
+
+tabs_content {
+	border: 1px solid #ccc;
+	border-top: none;
+	padding: 10px;
+	width: 600px;
+}
+
+
+/* intro style */
+.intro {  
+    margin-top: 26px;  
+    padding: 24px;  
+    background-size: 100%;  
+    border-radius: 22px;  
+}
+
+.intro {
+	...
+	/* Background-size not implemented yet */
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	-khtml-background-size: 100%;
+	/* Border-radius not implemented yet */
+ 	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+}
+
+.intro h2, .intro p¬†{
+	width: 336px;
+}
+.intro h2 {
+	padding: 0 0 22px 0;
+	font-weight: normal
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+============================================================
+.leftpart {  
+    width: 70%;  
+}  
+.rightpart {  
+    width: 30%;  
+}  
+.small {  
+    font-size: 75%;  
+    color: #373737;  
+}  
+#footer {  
+    font-size: 65%;  
+    padding: 3px 0 0 0;  
+}  
+.topic-post {  
+    height: 100px;  
+    overflow: auto;  
+}  
+.post-content {  
+    padding: 30px;  
+}  
+textarea {  
+    width: 500px;  
+    height: 200px;  
+}  
+
+
+
+
+
+
+#content {  
+    display: table;  
+}  
+    #mainContent {  
+        display: table-cell;  
+        width: 620px;  
+        padding-right: 22px;  
+    }  
+    aside {  
+        display: table-cell;  
+        width: 300px;  
+    }  
+    
+    
+.blogPost div {  
+    column-count: 2;  
+    column-gap: 22px;  
+} 
+.blogPost {  
+    column-count: 2;  
+    column-gap: 22px;  
+}  
+    .blogPost header {  
+        column-span: all;  
+    }
+    
+.blogPost div {  
+    /* Column-count not implemented yet */  
+    -moz-column-count: 2;  
+    -webkit-column-count: 2;  
+    /* Column-gap not implemented yet */  
+    -moz-column-gap: 22px;  
+    -webkit-column-gap: 22px;  
+}  
+.blogPost img {  
+    margin: 22px 0;  
+    -webkit-box-shadow: 3px 3px 7px #777;
+}
+
+section#comments article:nth-child(2n+1) {  
+    padding: 21px;  
+    background: #E3E3E3;  
+    border: 1px solid #d7d7d7;  
+    /* Border-radius not implemented yet */  
+    -moz-border-radius: 11px;  
+    -webkit-border-radius: 11px;  
+} 
+
+section#comments article:nth-child(odd) { ... } 
+
