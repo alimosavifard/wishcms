@@ -62,34 +62,6 @@ define ('DB_DATABASE', $databases['database']);
 	} // end of db_query function   
 
 
-/*
-
-$result = db_query ("SELECT data FROM table WHERE column='{$value}'"); 
-while (list($data) = $result->fetch_row()) { 
-  $html .= $data . '<br />'; 
-}
-
-
-$username = escape_data ("Hacker'); DROP TABLE users;--");
-
-
-
-$insert = array(); 
-$insert['name'] = 'username'; 
-$insert['password'] = 'password'; 
-$insert['email'] = 'email@address.com'; 
-$userid = db_insert('user', $insert);
-
-
-
-$update = array(); 
-$update['confirmed'] = 'Y'; 
-db_update ('users', $update, 'user_id', 1);
-
-
-*/
-
-
 
 
 
