@@ -34,13 +34,7 @@ foreach($modules_enabled as $key => $value){
 }
 
 
-
-        	require_once ROOT . $module_folder . '/pages/pages.module.php';
-            require_once ROOT . $theme_folder . '/template/pages.tpl.php';
-
-
-
-
-
+require_once ROOT . $module_folder . '/pages/pages.module.php';
+require_once ROOT . $theme_folder . '/template/pages.tpl.php';
 
 ?>
