@@ -1,0 +1,32 @@
+
+
+CREATE TABLE `menu` (
+  `id` int(11) NOT NULL auto_increment,
+  `label` varchar(50) NOT NULL default '',
+  `link` varchar(100) NOT NULL default '#',
+  `parent` int(11) NOT NULL default '0',
+  `sort` int(11) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `content`
+--
+
+CREATE TABLE IF NOT EXISTS `content` (
+  `content_id` int(11) NOT NULL AUTO_INCREMENT,
+  `content_name` tinytext,
+  `content_description` tinytext,
+  `content_url` text,
+  PRIMARY KEY (`content_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Dumping data for table `menu_items`
+--
+
